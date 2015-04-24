@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @streamer.name %>
+</p>
+
+<p>
+  <strong>Followers:</strong>
+  <%= @streamer.followers %>
+</p>
+
+<p>
+  <strong>Subscribers:</strong>
+  <%= @streamer.subscribers %>
+</p>
+
+<%= link_to 'Edit', edit_streamer_path(@streamer) %> |
+<%= link_to 'Back', streamers_path %>
